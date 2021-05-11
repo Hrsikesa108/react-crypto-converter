@@ -1,0 +1,18 @@
+Please follow the below steps to resolve the issue your facing.
+
+
+
+Delete pnpm-lock.yaml file, by executing the below command in terminal
+rm pnpm-lock.yaml
+
+
+Delete node_modules, by executing the below command in terminal
+rm -rf node_modules
+
+
+Install the node_modules, by executing the below command in terminal
+npm install
+
+
+Start the server, by executing the below command in terminal
+npm start
